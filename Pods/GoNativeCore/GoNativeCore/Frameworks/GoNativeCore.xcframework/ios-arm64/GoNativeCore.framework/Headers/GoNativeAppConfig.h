@@ -143,6 +143,7 @@ typedef enum : NSUInteger {
 @property NSString *iosDarkMode;
 @property BOOL hasCustomCSS;
 @property BOOL hasIosCustomCSS;
+@property NSNumber *initialWebviewZoom;
 @property NSNumber *forceViewportWidth;
 @property NSString *stringViewport;
 @property UIColor *tintColor;
@@ -161,6 +162,8 @@ typedef enum : NSUInteger {
 @property BOOL showToolbar;
 @property BOOL showNavigationBar;
 @property BOOL isNavigationTitleImage;
+@property BOOL hideNavBarOnScroll;
+@property BOOL transparentNavBar;
 @property NSNumber *menuAnimationDuration;
 @property NSNumber *interactiveDelay;
 @property UIFont *iosSidebarFont;
@@ -235,6 +238,11 @@ typedef enum : NSUInteger {
 @property BOOL ibmpushEnabled;
 @property NSDictionary *ibmpushConfig;
 
+// Klaviyo
+@property BOOL klaviyoEnabled;
+@property NSString *klaviyoApiKey;
+@property BOOL klaviyoAutoRegister;
+
 // Ortto Push
 @property BOOL orttoPushEnabled;
 @property NSString *orttoPushAppKey;
@@ -287,6 +295,15 @@ typedef enum : NSUInteger {
 @property NSString *auth0Domain;
 @property NSString *auth0Audience;
 
+// intentEdge
+@property BOOL intentEdgeEnabled;
+@property BOOL intentEdgeAudienceAnalyticsEnabled;
+@property BOOL intentEdgeCrashReportsEnabled;
+@property BOOL intentEdgeDebugLoggingEnabled;
+@property NSString *intentEdgeManifestUrl;
+@property NSString *intentEdgeBaseUrl;
+@property NSString *intentEdgePnsUrl;
+
 // in-app purchase
 @property BOOL iapEnabled;
 @property NSURL *iapProductsUrl;
@@ -326,6 +343,17 @@ typedef enum : NSUInteger {
 // NFC
 @property BOOL nfcEnabled;
 
+// MasterLock
+@property BOOL masterLockEnabled;
+
+// Grow SDK
+@property BOOL growEnabled;
+@property NSString *growApiKey;
+@property BOOL growAnalyticsEnabled;
+@property BOOL growLoggingEnabled;
+@property NSArray<NSString *>* growAssociatedDomains;
+@property NSString *growEnvironment;
+
 // Couples
 @property BOOL couplesEnabled;
 @property NSString *couplesLicenseKey;
@@ -339,6 +367,12 @@ typedef enum : NSUInteger {
 
 // Health Bridge
 @property BOOL healthBridgeEnabled;
+
+// AgeSafety
+@property BOOL ageSafetyEnabled;
+
+// Alarms
+@property BOOL alarmsEnabled;
 
 // Twilio
 @property BOOL twilioEnabled;

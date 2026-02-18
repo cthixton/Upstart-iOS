@@ -25,10 +25,10 @@
     "androidUserAgentAdd": "median",
     "androidForceUserAgent": "",
     "androidSigningKey": "release",
-    "iosCustomHeaders": {},
-    "androidCustomHeaders": {},
     "injectMedianJS": true,
     "forceSessionCookieExpiry": 0,
+    "iosCustomHeaders": {},
+    "androidCustomHeaders": {},
     "version": 1
   },
   "navigation": {
@@ -50,6 +50,7 @@
       "menus": [
         {
           "active": false,
+          "name": "default",
           "items": [
             {
               "url": "https://www.upstart.com/personal-loans",
@@ -96,72 +97,71 @@
               "label": "Short-term relief",
               "subLinks": []
             }
-          ],
-          "name": "default"
+          ]
         }
       ]
     },
     "regexInternalExternal": {
       "rules": [
         {
+          "regex": "^(?!https?://).*",
           "mode": "external",
           "label": "Non-web links",
-          "pagesToTrigger": "custom",
-          "regex": "^(?!https?://).*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
           "mode": "appbrowser",
           "label": "Facebook",
-          "pagesToTrigger": "custom",
-          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?://([\\-\\w]+\\.)*(twitter|x)\\.com/.*",
           "mode": "appbrowser",
           "label": "Twitter/X",
-          "pagesToTrigger": "custom",
-          "regex": "https?://([\\-\\w]+\\.)*(twitter|x)\\.com/.*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
           "mode": "appbrowser",
           "label": "Instagram",
-          "pagesToTrigger": "custom",
-          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?://maps\\.google\\.com.*",
           "mode": "appbrowser",
           "label": "Google Maps",
-          "pagesToTrigger": "custom",
-          "regex": "https?://maps\\.google\\.com.*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
           "mode": "appbrowser",
           "label": "Google Maps Search",
-          "pagesToTrigger": "custom",
-          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
           "mode": "appbrowser",
           "label": "LinkedIn",
-          "pagesToTrigger": "custom",
-          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?://login\\.microsoftonline\\.com.*",
           "mode": "internal",
           "label": "Microsoft Login",
-          "pagesToTrigger": "custom",
-          "regex": "https?://login\\.microsoftonline\\.com.*"
+          "pagesToTrigger": "custom"
         },
         {
+          "regex": "https?:\\/\\/([-\\w]+\\.)*upstart.com(\\/.*)?$",
           "mode": "internal",
           "label": "All pages on my domain",
-          "pagesToTrigger": "domain",
-          "regex": "https?:\\/\\/([-\\w]+\\.)*upstart.com(\\/.*)?$"
+          "pagesToTrigger": "domain"
         },
         {
+          "regex": ".*",
           "mode": "appbrowser",
           "label": "All Other Links",
-          "pagesToTrigger": "all",
-          "regex": ".*"
+          "pagesToTrigger": "all"
         }
       ],
       "active": true
@@ -169,8 +169,8 @@
     "androidPullToRefresh": false,
     "iosPullToRefresh": true,
     "navigationTitles": {
-      "titles": [],
-      "active": true
+      "active": true,
+      "titles": []
     },
     "ignorePageFinishedRegexes": [],
     "actionConfig": {
@@ -185,8 +185,8 @@
       "enableAndroidApplinks": false
     },
     "navigationLevels": {
-      "levels": [],
-      "active": true
+      "active": true,
+      "levels": []
     },
     "toolbarNavigation": {
       "enabled": false,
@@ -378,7 +378,12 @@
     "navigationTitleImageLocationDark": "https://s3.amazonaws.com/gonativeio/app_files/pkkeqd/app_icon_ios.png",
     "androidHeaderImage": "https://s3.amazonaws.com/gonativeio/app_files/pkkeqd/app_icon_ios.png",
     "androidHeaderImageDark": "https://s3.amazonaws.com/gonativeio/app_files/pkkeqd/app_icon_ios.png",
-    "iosHeaderImageDark": "https://s3.amazonaws.com/gonativeio/app_files/pkkeqd/app_icon_ios.png"
+    "iosHeaderImageDark": "https://s3.amazonaws.com/gonativeio/app_files/pkkeqd/app_icon_ios.png",
+    "androidHideNavBarOnScroll": false,
+    "iosGlassDesign": false,
+    "iosHideNavBarOnScroll": false,
+    "iosTransparentNavBar": true,
+    "initialZoom": null
   },
   "permissions": {
     "usesGeolocation": false,

@@ -14,115 +14,124 @@
 				BAF2C4E43E0946BE8292D66A878BA60A /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				A6EB1653E5DEC49C6EC899E4EE731D6D /* PBXTargetDependency */,
-				0046573501715246C2A67872B9F519C8 /* PBXTargetDependency */,
+				D4A6B84F53E2C237037EED6F9EFDCD5D /* PBXTargetDependency */,
+				875523C4E72860667433378B51FA674C /* PBXTargetDependency */,
 			);
 			name = GoNativeCore;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02549A98713D4F71EE8E5D4AB1B6C4F3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BF40FC01D00005DD8C05B69F89BA4364 /* PrivacyInfo.xcprivacy */; };
-		03588B938BECEEF89042E2C73159BEA2 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = 229D6BE45A08C6B11802CCBD4C21A757 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		090CC8DB2713055B65F3693A67A9F0AF /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = AAFC144D678EBFB3CFA38CA309C161FA /* mz_zip_rw.c */; };
-		0F0C13AD4DAF662871D11E237EFF1C5E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4940B54381EA4A971EBE043A6DF7C5 /* Font.swift */; };
-		1567206362BF074F1B55F70FBA33DEC2 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52CADFEABD17F4C45F6D04CAC67B925F /* FontAwesome6_Regular.ttf */; };
-		2447F98C827F2FE7082D6036FEC94BF5 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B7107C5C4520C66BD61E5AA71FA0A0B /* FontAwesome6_Brands.ttf */; };
-		27293E7084BFE6AF873BB233419CFA2D /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F244AB78F3C000EAC31BC0D600B82F5 /* mz_strm_mem.c */; };
-		2D6FB8768A6B2798FC84316E93E457A3 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C48CB66566123686B5EF1469AC57615 /* FontAwesome6_Solid.ttf */; };
-		352E63E404CED072E7F714C52FF93E49 /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = EFC54BF52BDAEAD5D745CA745308D775 /* mz_compat.c */; };
-		3683A04365A59519AAB2F47C5FA6FA3C /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = A94453B6A5890D48F0ADE871C384C4BB /* mz_os_posix.c */; };
-		374FECA22750A2F7F17CA125C25DB352 /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = D628E9F3250D04F5CC155BF0F389F7DD /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4569AD436BB87FA37A01C5C982F025A2 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = C92FFB14DA6A87983303A2FE8E48F2CB /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47776B396C1E4844D7DD36ED915F6736 /* Pods-Upstart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D6972CFE613F3D8FCF0CEDCF5F1F9A /* Pods-Upstart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4940BEF2C2ED6F1A786C9C4C70B371A1 /* FontAwesome6_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83A58C486077990021F365D1674161C0 /* FontAwesome6_Thin.ttf */; };
-		49900106BEFC9C1BEB3E96558C0C4AE8 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2C61E79C6C162DC7B5B0D8595CA8FE /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B537D7EED02B9651AD870CABF49BABE /* MedianIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B75D5B0BD36CAD92C8F7E8109BACB4A /* MedianIcons-dummy.m */; };
-		4C652DF3EC0F0F39B29287E72864FC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F29E5F7EEDB83D0B063DAD0B5196072 /* Foundation.framework */; };
-		4C8A5ADD06D2DFC9E7FA2A1CA9DD565A /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = FF044C717CF733C62A03C5F8A584070B /* mz_strm_pkcrypt.c */; };
-		4E56BA148170B3A6E7FA6D312B06C784 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D752CD9C0117B2E07A800A6564C15EF /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		50C171D1890D70EED265FCE3C5240091 /* FontAwesome.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BDAA894B01399001E5CB0ACD63FC404 /* FontAwesome.json */; };
-		5AE8274362638FD006B41882BF55F387 /* UIImage+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D73110369BE4A28EF13752A5A795595 /* UIImage+Font.swift */; };
-		5C3453F2DD57FBB3E8CDA20B84FB62EB /* NSAttributedString+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16C8EA872D6018C81CCDF3CBCA8A9A /* NSAttributedString+Font.swift */; };
-		60E384ABEF99F5104C99DCB596E2BE95 /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 204F59915C89FE8F1FC15E4826052071 /* mz_crypt.c */; };
-		6577A9EB1AED47B915B7F77C3F8BF335 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADBAAD1ED51D12E0474B888A5991DE7 /* mz_os.c */; };
-		68D4A83EA695C463981E04DAD037064F /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B969D2CB4138067441D0CF176A8B6A0 /* mz_strm_split.c */; };
-		7819DD27A1B62DFC933835DFAFBDBF42 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = CA4C3D3D9A0B44303F7C63AFB371DE9B /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7ED6C3C05EA6EE83780A3600C7088B46 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A9111BBE01DC0EC4DD400CB3732A68 /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		817909CFA2E8032670693BF57A2D5519 /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = C7773E0EDBC498A04D307C60CF61CD73 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		823033F3DF2D5C7C4B123A277DB55073 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = 55EBDFF9ACFDD0AE02C215AE40F19C91 /* mz_strm.c */; };
-		835C687083E3D51DE87C2F2C4C681B1C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C330BC62C9ACD3F9E7AF138812EF298C /* Security.framework */; };
-		8415E191A2886EC3426A01BC86299E1F /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = C5538D322258F5F27934B643D49C4A0C /* mz_strm_buf.c */; };
-		84B5FB65B38C19F534F49DE6471C0E5B /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = D068264355A9020A5E9806F96D765097 /* mz_strm_zlib.c */; };
-		8F43694404EAFF6D73EE58928154C0F2 /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C45274AE11C989A45C95A6508D08E7 /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		982E562468DAEA210F469728F0F0E537 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E68EA1499C3C165BE914B43467D49 /* Utilities.swift */; };
-		A190A9DFC23558006BE5D8D5B6DAE51C /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1A7358ACB43782886506FC51A5205B /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A71E222C76A20B18600A6DE4091CFB0E /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = F51FDC0C2667BAAC9C2508574EBC3C21 /* SSZipArchive.m */; };
-		A90260F860E51EC89130250EA3E61F22 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDBFDF5C52262862D0AA7F7B645C3CD /* SSZipArchive-dummy.m */; };
+		003999C1069A4012DECD0022C9B21018 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BBAAC91C752BCAE75538A8A0D2619F5 /* mz_zip_rw.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		056C8AF4833983C0502D6A8AFEDBA2CB /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E89A7DBBA6A6827568A0206CA6DE671 /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		09D396E61304DAEBD72C954F43B1FB92 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = F58F70F2E9F5EC998F581BB090F118C4 /* ZipArchive.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F0C13AD4DAF662871D11E237EFF1C5E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E762634AD3CE9AE68F6E62495CFA7FD /* Font.swift */; };
+		0F35D3C4CC99C332A46BA6CCCC38406B /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = ECE45D09D4399EE837287C21CB31EE0D /* mz_strm_os_posix.c */; };
+		1567206362BF074F1B55F70FBA33DEC2 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47E7906CFC89843A8B5205296AD42132 /* FontAwesome6_Regular.ttf */; };
+		17AEA3172EED2D45F8B4B59A56B95816 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D411C2AD65FFDEB78290A289B9C48D2 /* mz_strm_pkcrypt.c */; };
+		1B9381399C618FFA8C35836F410F4AA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F4A5444237292E6DFC95D7EC1421B3 /* Images.xcassets */; };
+		2447F98C827F2FE7082D6036FEC94BF5 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2910FFF679F6DCE2978A7E19A9079A56 /* FontAwesome6_Brands.ttf */; };
+		27680337CA7AFDDE45950E5F32FE50D4 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A5CF0DA40D5EC6EBA6674E61D47D5F /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		289DC710A036B73F1795597DD3D63483 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6C12B5C92DBA80698ED0D6BE4AE12C /* mz_strm_zlib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D6FB8768A6B2798FC84316E93E457A3 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26CCF634A10A72185B0441E560C3E76E /* FontAwesome6_Solid.ttf */; };
+		373421C01FD5B667F4700B378F4052A9 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = EC704A596E7D669A7EA9552EE1684EF3 /* mz_zip.c */; };
+		379346ABB3BACD0A54D595B61196F162 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 660A58ABE3719DB4F4EA6FF6DDB53F9D /* mz_strm_zlib.c */; };
+		381FDF8E50A892E81625E5EF25C0903D /* Pods-Upstart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D6972CFE613F3D8FCF0CEDCF5F1F9A /* Pods-Upstart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		390093E4E180AC2F55C363B0D0CB1DE8 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F8BF8EFB4E9F90B6E76B1893C55573 /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4940BEF2C2ED6F1A786C9C4C70B371A1 /* FontAwesome6_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11C92398D6D64A743B0F40D892D3D0A2 /* FontAwesome6_Thin.ttf */; };
+		4B537D7EED02B9651AD870CABF49BABE /* MedianIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18DF5990B0FD1A9665DE081FD6E7D3 /* MedianIcons-dummy.m */; };
+		4CC52CDB5C87800EF35CCA48E614E56E /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFE38EE523C3CC76283F1C438B0C5F9 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50C171D1890D70EED265FCE3C5240091 /* FontAwesome.json in Resources */ = {isa = PBXBuildFile; fileRef = 85D60B6C6319240D38D2E5EC208F5BED /* FontAwesome.json */; };
+		5A3D64C4797B39E18B0109FE2355568D /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6A117F031C6DC5293CE8A0E73D7AB7 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AE8274362638FD006B41882BF55F387 /* UIImage+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014BB0B6B9F4D385A3A72086B0FC0135 /* UIImage+Font.swift */; };
+		5C3453F2DD57FBB3E8CDA20B84FB62EB /* NSAttributedString+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D864A935EF7CB6F5BE9565481A320 /* NSAttributedString+Font.swift */; };
+		5D274CD538685BF6412CF6E108FFA18F /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = 91D987AAC8412EDA176E660A1CE48348 /* mz_zip_rw.c */; };
+		609091DF6F879D0F3E29E445F039BB0B /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 0162624E64CF7936C187B497A20C0CCC /* mz_compat.c */; };
+		66070F171462D48C039DB8CB8800D53C /* SSZipArchive-SSZipArchive in Resources */ = {isa = PBXBuildFile; fileRef = 47818FA269C04B50A51A8D1D2122C796 /* SSZipArchive-SSZipArchive */; };
+		66EE8040E71562D4504D57E20B1DFB34 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = 39682AF6BC324631A0DA16A7A9C573D4 /* mz_strm_wzaes.c */; };
+		68248CC3459DE36DDEA2D05F179B6499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F29E5F7EEDB83D0B063DAD0B5196072 /* Foundation.framework */; };
+		6A99825409D722A5D4179809B8456357 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C330BC62C9ACD3F9E7AF138812EF298C /* Security.framework */; };
+		7DF4A07D592A213ABC8B15B47F610EEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F29E5F7EEDB83D0B063DAD0B5196072 /* Foundation.framework */; };
+		873389BDCAA63589C774F5902C642732 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAE6EA41BE8331EEACCF737DB3B43BF /* SSZipArchive.m */; };
+		982E562468DAEA210F469728F0F0E537 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E85C9BDDE1C49D815911D1D26AD19B4 /* Utilities.swift */; };
+		9AE435D3623673C2DDE5D4A5A0E646C0 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE86A9FC428D4310C3989CA36F84D2F /* mz_crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DE181522C57CB2A0171194DFAD658FE /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 61328D504A6E139B2623DB0E0AF2E9E1 /* mz_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A9693654D6501195F06204888F47FA9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F29E5F7EEDB83D0B063DAD0B5196072 /* Foundation.framework */; };
-		AAF2B7BD4C56295DBA1BB6039AC0EDD4 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = FB81A7AA5B739688B3DFAAFC4748A689 /* ZipArchive.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AD3334681B057E7FAEB50F6C79347164 /* FontAwesome6_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3124464FE4D69BED57FB5D6AAF12117D /* FontAwesome6_Light.ttf */; };
-		AE0F1284A9C414203C1D5C66EDE95E8E /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = 918B6137EB6BAA60021C5C8CB28882CA /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B4DF1CDCE2413AF579E102954A4033F6 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 68CFA1F57280574961E194B5F0DE9600 /* mz_strm_os_posix.c */; };
-		BE9F1461F54BCB68FCA4EC42572F2D0A /* FontFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67C07B7FCAE3A3E5A56D25AE1E432C /* FontFactory.swift */; };
-		C53D326186927C0C85580CC5FEB133E3 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 224E5F926509D1AD36F4EF2EB1353E7F /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C64C28E8B15C171323473E543C608E68 /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = C77BBDD9F2A72F7CBA75438163290CA7 /* mz_strm_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C9AFC6682FD2C8231E779A4349DBDFD6 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2E3AA9B87D95676372B6714D71B865 /* mz_strm_wzaes.c */; };
-		D077148F7C355824C44ECBFAC5D50323 /* MaterialDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 78505AB11E39B8C2B589301C09D93639 /* MaterialDesign.json */; };
-		D2E6ED217227452C59C9B29C62858F7C /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 486D8DAEA07C49883727C6FF93837E52 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C15A8B92E62396D95DB88415A38A8F /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EA4C40EF0789922C2DDD2C4F388405 /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE5FDBDD5D7E1CD682CB14A90D07961D /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F9445D8C8424BA20D3A9AE0EBC3E78 /* FontLoader.swift */; };
+		AD3243EAC62531D9E692F86389A373D6 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = DBAB6615BD1D6BC27942ACE62DCADD39 /* mz_strm_wzaes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD3334681B057E7FAEB50F6C79347164 /* FontAwesome6_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1B4AAB70FACCFA343C51588D3ED6E4 /* FontAwesome6_Light.ttf */; };
+		B4CD90474BC538C12A1A8A81116842D4 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = 65002457E1623A6A962590731F63A472 /* mz_os.c */; };
+		B5B88C7DE035EA7EAC7F8282248BD3D0 /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C79B1E034B4F117228F6D4842380135 /* mz_os_posix.c */; };
+		B6425E13C08E63C782D15EBDD5B448DE /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C632A2D0DE5F51A3C836177D20C6E0 /* mz_strm_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9538FAA8706CDD0ECB64C8135D1B6BE /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = BAC8436C8108D5386E7BFDF84173E151 /* mz_strm_mem.c */; };
+		BDFBF97EE09CA59227853CF277B7CDBB /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = CFEA8B2D7ECE813C3EEC6669FD38134C /* mz_strm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE9F1461F54BCB68FCA4EC42572F2D0A /* FontFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCF3F14B93BB79A2C91F3132E6B128 /* FontFactory.swift */; };
+		CA148F8D9BB07D441D3D5B8E22385839 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2804EBDE5A17CCD85DA098CE16E96436 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CECE83BFCC626ABB91AD969D00445F46 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C84EC4BD2F5245F295E8B1DB1BBF9A6 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D077148F7C355824C44ECBFAC5D50323 /* MaterialDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D878212D5AD9D6F26C329824C1C16D0 /* MaterialDesign.json */; };
+		D424FF2DDBC8D87DF41A086030E48A3B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BBCB2F81EDCCCB899A329CD3B2127745 /* PrivacyInfo.xcprivacy */; };
+		D624E216A54491799D7C3F1C36A7F6AC /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = F7D25188D411DB9C243492F6DBF173F3 /* mz_strm.c */; };
+		D63C09ABB22718DE57F3478C08C4E2F4 /* Pods-Upstart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD3D3C8C8736D22169344B70926D459 /* Pods-Upstart-dummy.m */; };
+		D6A14D301C02D86E96A73647ED246999 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F986AE9FD8820C88DBB18EBACBBAAE1E /* PrivacyInfo.xcprivacy */; };
+		DD855D98C793682FEFEE7B8583560D79 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C328B99C5DCF57358382F785169EAF /* SSZipArchive-dummy.m */; };
+		DE5FDBDD5D7E1CD682CB14A90D07961D /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098F40935EEF58113425763835B84D97 /* FontLoader.swift */; };
 		E013D49B9601ABA3CD123C9B15343FD7 /* Pods-MedianIOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F797BB5A84AAE2567BF88824E074B86E /* Pods-MedianIOSTests-dummy.m */; };
-		E19231A31057936C7ABB600E00507685 /* Pods-Upstart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD3D3C8C8736D22169344B70926D459 /* Pods-Upstart-dummy.m */; };
-		E283D8FF283E09D9CF863A27B55886EF /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A17217E06CB99F3EAA64DBBAC07E91E /* mz_crypt_apple.c */; };
-		E4482CD4C4A4EEBEE27D535EB5A2EC04 /* MaterialDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3953DFBC92F05145FE99E41C997D9D78 /* MaterialDesign.ttf */; };
-		E5FA0235CD286C13C0F568946EB0AEA8 /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 791B607F6522CF8BBCF9B39E4F34B4D1 /* mz_strm_pkcrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4482CD4C4A4EEBEE27D535EB5A2EC04 /* MaterialDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC91C17345345F691FDC253A3F9CA8D /* MaterialDesign.ttf */; };
+		E5DB347522E224FAC86C1EC31A11DD63 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8230A0FD6F197B865D6635E150A477 /* mz_strm_buf.c */; };
 		E8AB8A25209B21B7D1E61138E4C88E1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F29E5F7EEDB83D0B063DAD0B5196072 /* Foundation.framework */; };
-		EAD3977EB3EE3DEB3E6E67C003AB9D0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520B29F22B4B110F2A243BDA9797F138 /* Images.xcassets */; };
-		F04C55728828799F5F08C12BEB169609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F29E5F7EEDB83D0B063DAD0B5196072 /* Foundation.framework */; };
-		F16CA13AB620DDBD6A2B833A04189345 /* MedianIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C54A266B66897D8CA72BEE176A984F /* MedianIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F132E1104C291F93864A649244171DA2 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D0CCFA40481984570EBF247C6FFC2D /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F16CA13AB620DDBD6A2B833A04189345 /* MedianIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B4C058FFA5FA4FBDA251FB9CE02BF3 /* MedianIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3AE37B0F0D332EFF50B6963242C4022 /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = AC45A21C93E629C7EBCA619F4F7BF0DD /* mz_strm_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F98F0C2D46B9873FA0A2AB457690744D /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F5043B2B2C37799364A91A0F7FEFCC9 /* mz_crypt.c */; };
+		FA64FA872544EA72ADAD88EA9614175F /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = DFFE60FB414659465B442A27BA883BAF /* mz_crypt_apple.c */; };
 		FBF46B978BB42C9C8F1895FA95FBE7E6 /* Pods-MedianIOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA0326BB82A92811233C9F5EA354953 /* Pods-MedianIOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBF481A2EC25D99DC41914AE7B9754D2 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B103C83FBCF88589578BBD014DC3FC08 /* mz_zip.c */; };
-		FF500FD55C6C8DD8418FA2290B95811A /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3418C56943F72B28BBA3DC16388D3799 /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9F2E73CDC2A0907B25987A94E39A43 /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = 07265A6BB6E332FAA65322D9EDF6CC8E /* mz_strm_split.c */; };
+		FF1BBE58CE8AA452072BA30280E4D1DE /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5C4F2963538B7F59F42EC2454FC96B /* mz_strm_split.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		128354317C6759B7959DCCE47542CA58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 342DC4BCB960507542891730A007EEC5;
-			remoteInfo = "GoNativeCore-GoNativeCore_Privacy";
-		};
-		5C848310AE5E66001003DC3A440F3C5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 42D9E1CFE057ACA78611354A64E68592;
-			remoteInfo = MedianIcons;
-		};
-		63096D0F2CCB9B0935308F8BD26BCC86 /* PBXContainerItemProxy */ = {
+		45A1543C03594A2856A94398929E0FE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BAB09BCC6C174BC6386EEBD9FBEC68E2;
 			remoteInfo = "GoNativeCore-GoNativeCoreResources";
 		};
-		A12CFDC4AD05AB88ADFFBBEF8EB4D51E /* PBXContainerItemProxy */ = {
+		53D97052AB03D4BB91C3539ABC59F6B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
-			remoteInfo = SSZipArchive;
+			remoteGlobalIDString = D8EA004283833F4910C46F5335BE8F07;
+			remoteInfo = "SSZipArchive-SSZipArchive";
 		};
-		B8F26519A7773A873B1DFB67E93F5656 /* PBXContainerItemProxy */ = {
+		6482673E7B7E5004D329A9372147C364 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0412DEF5B0065DDF6F89C12727DA5240;
 			remoteInfo = GoNativeCore;
 		};
-		EEF92066B8FFFBD4BBEA77477540093A /* PBXContainerItemProxy */ = {
+		6AC7C69588F26CEDFBB8F7F41F8B8CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 342DC4BCB960507542891730A007EEC5;
+			remoteInfo = "GoNativeCore-GoNativeCore_Privacy";
+		};
+		88BB2C4A2469E54758A3187DF9DBADFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60E38364AFF5E1349FF07415B944396;
+			remoteInfo = SSZipArchive;
+		};
+		8A4BDFDF6D8D98816275878DFB201DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42D9E1CFE057ACA78611354A64E68592;
+			remoteInfo = MedianIcons;
+		};
+		CFE9AD1F8749134B137A26BC806D553C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -132,118 +141,128 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014BB0B6B9F4D385A3A72086B0FC0135 /* UIImage+Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Font.swift"; path = "MedianIcons/Classes/UIImage+Font.swift"; sourceTree = "<group>"; };
+		0162624E64CF7936C187B497A20C0CCC /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
+		044CEF51D08FE29AD7E76FE893653451 /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
 		062F1D76904AD5FFE576E395FC3DA2F1 /* Pods-MedianIOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedianIOSTests.modulemap"; sourceTree = "<group>"; };
-		0BFA62D1C836B06EA0A331FB02A0B605 /* SSZipArchive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.debug.xcconfig; sourceTree = "<group>"; };
-		1A4940B54381EA4A971EBE043A6DF7C5 /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = MedianIcons/Classes/Font.swift; sourceTree = "<group>"; };
-		1BDAA894B01399001E5CB0ACD63FC404 /* FontAwesome.json */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.json; path = MedianIcons/Assets/FontAwesome.json; sourceTree = "<group>"; };
+		07265A6BB6E332FAA65322D9EDF6CC8E /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
+		098F40935EEF58113425763835B84D97 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = MedianIcons/Classes/FontLoader.swift; sourceTree = "<group>"; };
+		1030FEA83551A2D63970ED366032EF54 /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
+		11C5D79E0E82354A82A1593917CA8263 /* MedianIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MedianIcons-prefix.pch"; sourceTree = "<group>"; };
+		11C92398D6D64A743B0F40D892D3D0A2 /* FontAwesome6_Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Thin.ttf; path = MedianIcons/Assets/FontAwesome6_Thin.ttf; sourceTree = "<group>"; };
+		14B4C058FFA5FA4FBDA251FB9CE02BF3 /* MedianIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MedianIcons-umbrella.h"; sourceTree = "<group>"; };
+		14F371B768A10E2E580A9DF6831E3A83 /* GoNativeCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoNativeCore.release.xcconfig; sourceTree = "<group>"; };
+		1A9C85E5EDCD6D5D7581F03876E84839 /* ResourceBundle-SSZipArchive-SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SSZipArchive-SSZipArchive-Info.plist"; sourceTree = "<group>"; };
+		1D878212D5AD9D6F26C329824C1C16D0 /* MaterialDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialDesign.json; path = MedianIcons/Assets/MaterialDesign.json; sourceTree = "<group>"; };
+		1E85C9BDDE1C49D815911D1D26AD19B4 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = MedianIcons/Classes/Utilities.swift; sourceTree = "<group>"; };
 		2000401552399F3A80EA79EABC2AC6F1 /* Pods-Upstart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Upstart-acknowledgements.markdown"; sourceTree = "<group>"; };
-		204F59915C89FE8F1FC15E4826052071 /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
 		208A9A51E6B12AA8021F624AD7566737 /* Pods-MedianIOSTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MedianIOSTests"; path = Pods_MedianIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		224E5F926509D1AD36F4EF2EB1353E7F /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
-		229D6BE45A08C6B11802CCBD4C21A757 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
-		24B9500AD75FD25F8220EC4DEACFAF5C /* MedianIcons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MedianIcons.debug.xcconfig; sourceTree = "<group>"; };
-		2ADBAAD1ED51D12E0474B888A5991DE7 /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
-		2D73110369BE4A28EF13752A5A795595 /* UIImage+Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Font.swift"; path = "MedianIcons/Classes/UIImage+Font.swift"; sourceTree = "<group>"; };
+		234F0B327AB3F2D96DEC7BA149FAB55E /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		26CCF634A10A72185B0441E560C3E76E /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Solid.ttf; path = MedianIcons/Assets/FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		2804EBDE5A17CCD85DA098CE16E96436 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		2910FFF679F6DCE2978A7E19A9079A56 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Brands.ttf; path = MedianIcons/Assets/FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		2C79B1E034B4F117228F6D4842380135 /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
+		2D411C2AD65FFDEB78290A289B9C48D2 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
 		2F29E5F7EEDB83D0B063DAD0B5196072 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2FC91C17345345F691FDC253A3F9CA8D /* MaterialDesign.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialDesign.ttf; path = MedianIcons/Assets/MaterialDesign.ttf; sourceTree = "<group>"; };
 		30984B3A9256B7727928CE52B06E1F9A /* Pods-Upstart */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Upstart"; path = Pods_Upstart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3124464FE4D69BED57FB5D6AAF12117D /* FontAwesome6_Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Light.ttf; path = MedianIcons/Assets/FontAwesome6_Light.ttf; sourceTree = "<group>"; };
 		33363EA28850D9EB77A96E59BF6E776C /* Pods-Upstart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Upstart.modulemap"; sourceTree = "<group>"; };
-		3418C56943F72B28BBA3DC16388D3799 /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
-		3953DFBC92F05145FE99E41C997D9D78 /* MaterialDesign.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialDesign.ttf; path = MedianIcons/Assets/MaterialDesign.ttf; sourceTree = "<group>"; };
+		36C8125AE87835D0E6A57EB122BDE20F /* MedianIcons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MedianIcons.debug.xcconfig; sourceTree = "<group>"; };
+		39682AF6BC324631A0DA16A7A9C573D4 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
 		39A93385A10FCD9A36FF6DD42634F7A4 /* GoNativeCore-GoNativeCore_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoNativeCore-GoNativeCore_Privacy"; path = GoNativeCore_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A17217E06CB99F3EAA64DBBAC07E91E /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
-		3C8FF7A37891D4A6E9DBDB6DAB839F41 /* GoNativeCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoNativeCore.xcframework; path = GoNativeCore/Frameworks/GoNativeCore.xcframework; sourceTree = "<group>"; };
-		3DB33E4BF071E85E96385D450D137E32 /* MedianIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MedianIcons.modulemap; sourceTree = "<group>"; };
-		42F9445D8C8424BA20D3A9AE0EBC3E78 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = MedianIcons/Classes/FontLoader.swift; sourceTree = "<group>"; };
+		3DAE6EA41BE8331EEACCF737DB3B43BF /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		40C33B045B363AB84BE2978EEF38A3E6 /* GoNativeCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoNativeCore-xcframeworks.sh"; sourceTree = "<group>"; };
 		43B35E94EE71C5706DF2D7088A182628 /* Pods-Upstart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Upstart-resources.sh"; sourceTree = "<group>"; };
-		43C45274AE11C989A45C95A6508D08E7 /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
 		447A77D303EF569CA8B718DD209883AB /* Pods-MedianIOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedianIOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		47818FA269C04B50A51A8D1D2122C796 /* SSZipArchive-SSZipArchive */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SSZipArchive-SSZipArchive"; path = SSZipArchive.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E7906CFC89843A8B5205296AD42132 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Regular.ttf; path = MedianIcons/Assets/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
 		47F69FD70C4B31CB7B49B85B10B637C6 /* GoNativeCore-GoNativeCoreResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoNativeCore-GoNativeCoreResources"; path = GoNativeCoreResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		486D8DAEA07C49883727C6FF93837E52 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
-		4B75D5B0BD36CAD92C8F7E8109BACB4A /* MedianIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MedianIcons-dummy.m"; sourceTree = "<group>"; };
-		4F244AB78F3C000EAC31BC0D600B82F5 /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
+		4A18DF5990B0FD1A9665DE081FD6E7D3 /* MedianIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MedianIcons-dummy.m"; sourceTree = "<group>"; };
+		4A5C4F2963538B7F59F42EC2454FC96B /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
+		4CE86A9FC428D4310C3989CA36F84D2F /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
 		4FD3D3C8C8736D22169344B70926D459 /* Pods-Upstart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Upstart-dummy.m"; sourceTree = "<group>"; };
-		520B29F22B4B110F2A243BDA9797F138 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GoNativeCore/Resources/Images.xcassets; sourceTree = "<group>"; };
-		52CADFEABD17F4C45F6D04CAC67B925F /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Regular.ttf; path = MedianIcons/Assets/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
-		54B51299431A08329F934AD88F716976 /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
-		54EEACA274D6B0FBA632B79A57317D83 /* GoNativeCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoNativeCore.debug.xcconfig; sourceTree = "<group>"; };
-		55EBDFF9ACFDD0AE02C215AE40F19C91 /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
-		5A0B1F8E1E30BC17A08A172336DFCF3D /* MedianIcons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MedianIcons.release.xcconfig; sourceTree = "<group>"; };
-		5D752CD9C0117B2E07A800A6564C15EF /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
-		68CFA1F57280574961E194B5F0DE9600 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
-		6B7107C5C4520C66BD61E5AA71FA0A0B /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Brands.ttf; path = MedianIcons/Assets/FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		50125A53104BEF24697E8EBCE78FBDF2 /* MedianIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MedianIcons.modulemap; sourceTree = "<group>"; };
+		5D6C12B5C92DBA80698ED0D6BE4AE12C /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
+		5E762634AD3CE9AE68F6E62495CFA7FD /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = MedianIcons/Classes/Font.swift; sourceTree = "<group>"; };
+		61328D504A6E139B2623DB0E0AF2E9E1 /* mz_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_compat.h; path = SSZipArchive/minizip/mz_compat.h; sourceTree = "<group>"; };
+		65002457E1623A6A962590731F63A472 /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
+		660A58ABE3719DB4F4EA6FF6DDB53F9D /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
+		6C84EC4BD2F5245F295E8B1DB1BBF9A6 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
 		71527338472E212B0ED91F68807C8D2A /* Pods-MedianIOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedianIOSTests-Info.plist"; sourceTree = "<group>"; };
 		729F69076040FC13DEFC0FE9677A850A /* Pods-Upstart-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Upstart-frameworks.sh"; sourceTree = "<group>"; };
-		78505AB11E39B8C2B589301C09D93639 /* MaterialDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MaterialDesign.json; path = MedianIcons/Assets/MaterialDesign.json; sourceTree = "<group>"; };
-		791B607F6522CF8BBCF9B39E4F34B4D1 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
-		7C48CB66566123686B5EF1469AC57615 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Solid.ttf; path = MedianIcons/Assets/FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		76A5CF0DA40D5EC6EBA6674E61D47D5F /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
+		79B8149FEDFC257367E512B10EC104EF /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		7BBAAC91C752BCAE75538A8A0D2619F5 /* mz_zip_rw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip_rw.h; path = SSZipArchive/minizip/mz_zip_rw.h; sourceTree = "<group>"; };
 		7F1071995DDBA2CE7951360F268FA870 /* Pods-MedianIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedianIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FB2C6622FD82916305A6329E9975993 /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
-		83A58C486077990021F365D1674161C0 /* FontAwesome6_Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Thin.ttf; path = MedianIcons/Assets/FontAwesome6_Thin.ttf; sourceTree = "<group>"; };
-		87655FCDA8583BE09E6167B53EDD0B53 /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
-		8B969D2CB4138067441D0CF176A8B6A0 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
-		918B6137EB6BAA60021C5C8CB28882CA /* mz_strm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm.h; path = SSZipArchive/minizip/mz_strm.h; sourceTree = "<group>"; };
+		7F5043B2B2C37799364A91A0F7FEFCC9 /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
+		8377BDF7235E8085749790E16656E2A9 /* GoNativeCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoNativeCore.debug.xcconfig; sourceTree = "<group>"; };
+		85D60B6C6319240D38D2E5EC208F5BED /* FontAwesome.json */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.json; path = MedianIcons/Assets/FontAwesome.json; sourceTree = "<group>"; };
+		89C632A2D0DE5F51A3C836177D20C6E0 /* mz_strm_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_mem.h; path = SSZipArchive/minizip/mz_strm_mem.h; sourceTree = "<group>"; };
+		8DCD251D96CC50928552AB720138ACCD /* MedianIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MedianIcons-Info.plist"; sourceTree = "<group>"; };
+		8E4215D554C119CFCF02F3BA0098B4DB /* ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist"; sourceTree = "<group>"; };
+		8FFBC6061CC2199066132A479A6EBD12 /* MedianIcons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MedianIcons.release.xcconfig; sourceTree = "<group>"; };
 		91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D987AAC8412EDA176E660A1CE48348 /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
+		921D864A935EF7CB6F5BE9565481A320 /* NSAttributedString+Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Font.swift"; path = "MedianIcons/Classes/NSAttributedString+Font.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A13A62E63FEFFEAACF78A543BFBC8005 /* MedianIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MedianIcons-Info.plist"; sourceTree = "<group>"; };
-		A7C54A266B66897D8CA72BEE176A984F /* MedianIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MedianIcons-umbrella.h"; sourceTree = "<group>"; };
+		9E89A7DBBA6A6827568A0206CA6DE671 /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
+		A476FC7D3902BB9BA75542511250B168 /* GoNativeCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoNativeCore.xcframework; path = GoNativeCore/Frameworks/GoNativeCore.xcframework; sourceTree = "<group>"; };
 		A85DEE78B6017CFF6EF8E21E03C007AB /* Pods-Upstart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Upstart.release.xcconfig"; sourceTree = "<group>"; };
-		A94453B6A5890D48F0ADE871C384C4BB /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
-		AAFC144D678EBFB3CFA38CA309C161FA /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
-		AE67C07B7FCAE3A3E5A56D25AE1E432C /* FontFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontFactory.swift; path = MedianIcons/Classes/FontFactory.swift; sourceTree = "<group>"; };
-		B103C83FBCF88589578BBD014DC3FC08 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
+		AC45A21C93E629C7EBCA619F4F7BF0DD /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
 		B512286FC3C5CBC7A74D1A6891378A40 /* Pods-MedianIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedianIOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		B6A9111BBE01DC0EC4DD400CB3732A68 /* mz_crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_crypt.h; path = SSZipArchive/minizip/mz_crypt.h; sourceTree = "<group>"; };
 		B6D373EF12091244904560A5A7CB9B76 /* MedianIcons */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MedianIcons; path = MedianIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF40FC01D00005DD8C05B69F89BA4364 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GoNativeCore/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B8D0CCFA40481984570EBF247C6FFC2D /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
+		BAC8436C8108D5386E7BFDF84173E151 /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
+		BBCB2F81EDCCCB899A329CD3B2127745 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GoNativeCore/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BE6A117F031C6DC5293CE8A0E73D7AB7 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
 		C330BC62C9ACD3F9E7AF138812EF298C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		C38E71356291ABF75AEFCCB0B8D3C99F /* Pods-Upstart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Upstart.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F6E83B40F76888D656332FC792215A /* Pods-Upstart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Upstart-acknowledgements.plist"; sourceTree = "<group>"; };
 		C4B6550AE9EFF59DD2161CD606E5F8F0 /* Pods-MedianIOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedianIOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C5538D322258F5F27934B643D49C4A0C /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
-		C7773E0EDBC498A04D307C60CF61CD73 /* mz_strm_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_mem.h; path = SSZipArchive/minizip/mz_strm_mem.h; sourceTree = "<group>"; };
-		C77BBDD9F2A72F7CBA75438163290CA7 /* mz_strm_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_os.h; path = SSZipArchive/minizip/mz_strm_os.h; sourceTree = "<group>"; };
-		C8069A7A46B8C0A55DC0AF71F31ED5B2 /* ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist"; sourceTree = "<group>"; };
-		C92FFB14DA6A87983303A2FE8E48F2CB /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
-		CA4C3D3D9A0B44303F7C63AFB371DE9B /* mz.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz.h; path = SSZipArchive/minizip/mz.h; sourceTree = "<group>"; };
-		CE431C0692E05F978FD28B7DE2782D9B /* ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist"; sourceTree = "<group>"; };
+		CAA2D63A675C8DACADA9699DA58147C3 /* ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist"; sourceTree = "<group>"; };
 		CEA0326BB82A92811233C9F5EA354953 /* Pods-MedianIOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedianIOSTests-umbrella.h"; sourceTree = "<group>"; };
-		CF16C8EA872D6018C81CCDF3CBCA8A9A /* NSAttributedString+Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Font.swift"; path = "MedianIcons/Classes/NSAttributedString+Font.swift"; sourceTree = "<group>"; };
-		D00E68EA1499C3C165BE914B43467D49 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = MedianIcons/Classes/Utilities.swift; sourceTree = "<group>"; };
-		D068264355A9020A5E9806F96D765097 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
-		D628E9F3250D04F5CC155BF0F389F7DD /* mz_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_compat.h; path = SSZipArchive/minizip/mz_compat.h; sourceTree = "<group>"; };
-		D831177B9126FA21916BC413ABB57856 /* GoNativeCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoNativeCore-xcframeworks.sh"; sourceTree = "<group>"; };
-		D8DA71749BE57F1D8FDAC9DF3BEE0756 /* GoNativeCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoNativeCore.release.xcconfig; sourceTree = "<group>"; };
-		DA2355FBFE26240B1E0E2C79E5C9DB34 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		CFEA8B2D7ECE813C3EEC6669FD38134C /* mz_strm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm.h; path = SSZipArchive/minizip/mz_strm.h; sourceTree = "<group>"; };
+		D527DE9A4B115ECB7EFCC114C306BE6B /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
+		D5F8BF8EFB4E9F90B6E76B1893C55573 /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
+		D9C328B99C5DCF57358382F785169EAF /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		DBAB6615BD1D6BC27942ACE62DCADD39 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_wzaes.h; path = SSZipArchive/minizip/mz_strm_wzaes.h; sourceTree = "<group>"; };
+		DE8230A0FD6F197B865D6635E150A477 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
+		DFFE60FB414659465B442A27BA883BAF /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
 		E2DA3BFF33F1F01CF7ABE4B69F739E84 /* Pods-Upstart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Upstart-Info.plist"; sourceTree = "<group>"; };
-		EA2E3AA9B87D95676372B6714D71B865 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
-		EC2CF5B082A1CC7EEF7B66AA98100CFD /* MedianIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MedianIcons-prefix.pch"; sourceTree = "<group>"; };
-		EFC54BF52BDAEAD5D745CA745308D775 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
-		F0EA4C40EF0789922C2DDD2C4F388405 /* mz_strm_split.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_split.h; path = SSZipArchive/minizip/mz_strm_split.h; sourceTree = "<group>"; };
-		F51FDC0C2667BAAC9C2508574EBC3C21 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		E3F4A5444237292E6DFC95D7EC1421B3 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GoNativeCore/Resources/Images.xcassets; sourceTree = "<group>"; };
+		EC704A596E7D669A7EA9552EE1684EF3 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
+		ECE45D09D4399EE837287C21CB31EE0D /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
+		EDFCF3F14B93BB79A2C91F3132E6B128 /* FontFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontFactory.swift; path = MedianIcons/Classes/FontFactory.swift; sourceTree = "<group>"; };
+		EF1B4AAB70FACCFA343C51588D3ED6E4 /* FontAwesome6_Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome6_Light.ttf; path = MedianIcons/Assets/FontAwesome6_Light.ttf; sourceTree = "<group>"; };
+		F58F70F2E9F5EC998F581BB090F118C4 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/include/ZipArchive.h; sourceTree = "<group>"; };
 		F797BB5A84AAE2567BF88824E074B86E /* Pods-MedianIOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedianIOSTests-dummy.m"; sourceTree = "<group>"; };
+		F7D25188D411DB9C243492F6DBF173F3 /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
+		F986AE9FD8820C88DBB18EBACBBAAE1E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "SSZipArchive/Supporting Files/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		F9D6972CFE613F3D8FCF0CEDCF5F1F9A /* Pods-Upstart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Upstart-umbrella.h"; sourceTree = "<group>"; };
-		FB81A7AA5B739688B3DFAAFC4748A689 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/include/ZipArchive.h; sourceTree = "<group>"; };
-		FBDBFDF5C52262862D0AA7F7B645C3CD /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
-		FC2C61E79C6C162DC7B5B0D8595CA8FE /* mz_zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_zip.h; path = SSZipArchive/minizip/mz_zip.h; sourceTree = "<group>"; };
-		FE1A7358ACB43782886506FC51A5205B /* mz_strm_zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_zlib.h; path = SSZipArchive/minizip/mz_strm_zlib.h; sourceTree = "<group>"; };
-		FF044C717CF733C62A03C5F8A584070B /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		FEFE38EE523C3CC76283F1C438B0C5F9 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00ED1F6380ED698B3A6B6A6BDC85D4C1 /* Frameworks */ = {
+		0191B8CB9830996D14678B22E611CC05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF4A07D592A213ABC8B15B47F610EEB /* Foundation.framework in Frameworks */,
+				6A99825409D722A5D4179809B8456357 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E01C99959C337C436A8D2887B0D2BF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B7CCC4D3C186BB73A6D1F0A0DCB559D /* Frameworks */ = {
+		4797603010CBF74A6585DF8A1A1C180C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C652DF3EC0F0F39B29287E72864FC11 /* Foundation.framework in Frameworks */,
-				835C687083E3D51DE87C2F2C4C681B1C /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,24 +282,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B61133EF4D39A4A327D58EACEEE9D935 /* Frameworks */ = {
+		C30A9FC711C9547DBBAF42222C475489 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68248CC3459DE36DDEA2D05F179B6499 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC0B87C0976561AB403C03DE4B0F72D6 /* Frameworks */ = {
+		F6A06A9738E869308CCC49B10F51A1B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04C55728828799F5F08C12BEB169609 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046881C9D7E6280D407C858AB54D0D5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39A93385A10FCD9A36FF6DD42634F7A4 /* GoNativeCore-GoNativeCore_Privacy */,
+				47F69FD70C4B31CB7B49B85B10B637C6 /* GoNativeCore-GoNativeCoreResources */,
+				B6D373EF12091244904560A5A7CB9B76 /* MedianIcons */,
+				208A9A51E6B12AA8021F624AD7566737 /* Pods-MedianIOSTests */,
+				30984B3A9256B7727928CE52B06E1F9A /* Pods-Upstart */,
+				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive */,
+				47818FA269C04B50A51A8D1D2122C796 /* SSZipArchive-SSZipArchive */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,76 +329,6 @@
 				527D737581A6174009CD8321E820F540 /* Pods-Upstart */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		19E726D69E0EA8B8C990BDE098A9B169 /* SSZipArchive */ = {
-			isa = PBXGroup;
-			children = (
-				CA4C3D3D9A0B44303F7C63AFB371DE9B /* mz.h */,
-				EFC54BF52BDAEAD5D745CA745308D775 /* mz_compat.c */,
-				D628E9F3250D04F5CC155BF0F389F7DD /* mz_compat.h */,
-				204F59915C89FE8F1FC15E4826052071 /* mz_crypt.c */,
-				B6A9111BBE01DC0EC4DD400CB3732A68 /* mz_crypt.h */,
-				3A17217E06CB99F3EAA64DBBAC07E91E /* mz_crypt_apple.c */,
-				2ADBAAD1ED51D12E0474B888A5991DE7 /* mz_os.c */,
-				224E5F926509D1AD36F4EF2EB1353E7F /* mz_os.h */,
-				A94453B6A5890D48F0ADE871C384C4BB /* mz_os_posix.c */,
-				55EBDFF9ACFDD0AE02C215AE40F19C91 /* mz_strm.c */,
-				918B6137EB6BAA60021C5C8CB28882CA /* mz_strm.h */,
-				C5538D322258F5F27934B643D49C4A0C /* mz_strm_buf.c */,
-				43C45274AE11C989A45C95A6508D08E7 /* mz_strm_buf.h */,
-				4F244AB78F3C000EAC31BC0D600B82F5 /* mz_strm_mem.c */,
-				C7773E0EDBC498A04D307C60CF61CD73 /* mz_strm_mem.h */,
-				C77BBDD9F2A72F7CBA75438163290CA7 /* mz_strm_os.h */,
-				68CFA1F57280574961E194B5F0DE9600 /* mz_strm_os_posix.c */,
-				FF044C717CF733C62A03C5F8A584070B /* mz_strm_pkcrypt.c */,
-				791B607F6522CF8BBCF9B39E4F34B4D1 /* mz_strm_pkcrypt.h */,
-				8B969D2CB4138067441D0CF176A8B6A0 /* mz_strm_split.c */,
-				F0EA4C40EF0789922C2DDD2C4F388405 /* mz_strm_split.h */,
-				EA2E3AA9B87D95676372B6714D71B865 /* mz_strm_wzaes.c */,
-				229D6BE45A08C6B11802CCBD4C21A757 /* mz_strm_wzaes.h */,
-				D068264355A9020A5E9806F96D765097 /* mz_strm_zlib.c */,
-				FE1A7358ACB43782886506FC51A5205B /* mz_strm_zlib.h */,
-				B103C83FBCF88589578BBD014DC3FC08 /* mz_zip.c */,
-				FC2C61E79C6C162DC7B5B0D8595CA8FE /* mz_zip.h */,
-				AAFC144D678EBFB3CFA38CA309C161FA /* mz_zip_rw.c */,
-				5D752CD9C0117B2E07A800A6564C15EF /* mz_zip_rw.h */,
-				C92FFB14DA6A87983303A2FE8E48F2CB /* SSZipArchive.h */,
-				F51FDC0C2667BAAC9C2508574EBC3C21 /* SSZipArchive.m */,
-				3418C56943F72B28BBA3DC16388D3799 /* SSZipCommon.h */,
-				FB81A7AA5B739688B3DFAAFC4748A689 /* ZipArchive.h */,
-				8DD7CCD22E93859F518BD829F7E49BFC /* Support Files */,
-			);
-			name = SSZipArchive;
-			path = SSZipArchive;
-			sourceTree = "<group>";
-		};
-		212554011F68E01C43DA0A9534E37FFE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				39A93385A10FCD9A36FF6DD42634F7A4 /* GoNativeCore-GoNativeCore_Privacy */,
-				47F69FD70C4B31CB7B49B85B10B637C6 /* GoNativeCore-GoNativeCoreResources */,
-				B6D373EF12091244904560A5A7CB9B76 /* MedianIcons */,
-				208A9A51E6B12AA8021F624AD7566737 /* Pods-MedianIOSTests */,
-				30984B3A9256B7727928CE52B06E1F9A /* Pods-Upstart */,
-				91B23470DEB9A986332BEB5034234BC7 /* SSZipArchive */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2696471EC35DEA46BC0A8DFA88457931 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3DB33E4BF071E85E96385D450D137E32 /* MedianIcons.modulemap */,
-				4B75D5B0BD36CAD92C8F7E8109BACB4A /* MedianIcons-dummy.m */,
-				A13A62E63FEFFEAACF78A543BFBC8005 /* MedianIcons-Info.plist */,
-				EC2CF5B082A1CC7EEF7B66AA98100CFD /* MedianIcons-prefix.pch */,
-				A7C54A266B66897D8CA72BEE176A984F /* MedianIcons-umbrella.h */,
-				24B9500AD75FD25F8220EC4DEACFAF5C /* MedianIcons.debug.xcconfig */,
-				5A0B1F8E1E30BC17A08A172336DFCF3D /* MedianIcons.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MedianIcons";
 			sourceTree = "<group>";
 		};
 		27E0A231EEB6011A309547256AA35CF0 /* Pods-MedianIOSTests */ = {
@@ -384,26 +347,18 @@
 			path = "Target Support Files/Pods-MedianIOSTests";
 			sourceTree = "<group>";
 		};
-		2CF77DDE8C59E92FD574CEB8B0366217 /* MedianIcons */ = {
+		3682410DDB8F19DD00F7874BBD97067A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A4940B54381EA4A971EBE043A6DF7C5 /* Font.swift */,
-				AE67C07B7FCAE3A3E5A56D25AE1E432C /* FontFactory.swift */,
-				42F9445D8C8424BA20D3A9AE0EBC3E78 /* FontLoader.swift */,
-				CF16C8EA872D6018C81CCDF3CBCA8A9A /* NSAttributedString+Font.swift */,
-				2D73110369BE4A28EF13752A5A795595 /* UIImage+Font.swift */,
-				D00E68EA1499C3C165BE914B43467D49 /* Utilities.swift */,
-				A769B587C08B3A10B8C80C7F4A452622 /* Resources */,
-				2696471EC35DEA46BC0A8DFA88457931 /* Support Files */,
+				A476FC7D3902BB9BA75542511250B168 /* GoNativeCore.xcframework */,
 			);
-			name = MedianIcons;
-			path = MedianIcons;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D537F20A7E10B578CC690BCAEFB254A /* Resources */ = {
+		37783B76D97496387301807E8D9DDC53 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BF40FC01D00005DD8C05B69F89BA4364 /* PrivacyInfo.xcprivacy */,
+				BBCB2F81EDCCCB899A329CD3B2127745 /* PrivacyInfo.xcprivacy */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -426,6 +381,65 @@
 			path = "Target Support Files/Pods-Upstart";
 			sourceTree = "<group>";
 		};
+		5B4A22756A89D9353ABEE7691BE30B76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9C85E5EDCD6D5D7581F03876E84839 /* ResourceBundle-SSZipArchive-SSZipArchive-Info.plist */,
+				234F0B327AB3F2D96DEC7BA149FAB55E /* SSZipArchive.modulemap */,
+				D9C328B99C5DCF57358382F785169EAF /* SSZipArchive-dummy.m */,
+				D527DE9A4B115ECB7EFCC114C306BE6B /* SSZipArchive-Info.plist */,
+				79B8149FEDFC257367E512B10EC104EF /* SSZipArchive-prefix.pch */,
+				BE6A117F031C6DC5293CE8A0E73D7AB7 /* SSZipArchive-umbrella.h */,
+				044CEF51D08FE29AD7E76FE893653451 /* SSZipArchive.debug.xcconfig */,
+				1030FEA83551A2D63970ED366032EF54 /* SSZipArchive.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		62EA56D01CBAB06645A1188A4625FB35 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				B8D0CCFA40481984570EBF247C6FFC2D /* mz.h */,
+				0162624E64CF7936C187B497A20C0CCC /* mz_compat.c */,
+				61328D504A6E139B2623DB0E0AF2E9E1 /* mz_compat.h */,
+				7F5043B2B2C37799364A91A0F7FEFCC9 /* mz_crypt.c */,
+				4CE86A9FC428D4310C3989CA36F84D2F /* mz_crypt.h */,
+				DFFE60FB414659465B442A27BA883BAF /* mz_crypt_apple.c */,
+				65002457E1623A6A962590731F63A472 /* mz_os.c */,
+				D5F8BF8EFB4E9F90B6E76B1893C55573 /* mz_os.h */,
+				2C79B1E034B4F117228F6D4842380135 /* mz_os_posix.c */,
+				F7D25188D411DB9C243492F6DBF173F3 /* mz_strm.c */,
+				CFEA8B2D7ECE813C3EEC6669FD38134C /* mz_strm.h */,
+				DE8230A0FD6F197B865D6635E150A477 /* mz_strm_buf.c */,
+				AC45A21C93E629C7EBCA619F4F7BF0DD /* mz_strm_buf.h */,
+				BAC8436C8108D5386E7BFDF84173E151 /* mz_strm_mem.c */,
+				89C632A2D0DE5F51A3C836177D20C6E0 /* mz_strm_mem.h */,
+				9E89A7DBBA6A6827568A0206CA6DE671 /* mz_strm_os.h */,
+				ECE45D09D4399EE837287C21CB31EE0D /* mz_strm_os_posix.c */,
+				2D411C2AD65FFDEB78290A289B9C48D2 /* mz_strm_pkcrypt.c */,
+				FEFE38EE523C3CC76283F1C438B0C5F9 /* mz_strm_pkcrypt.h */,
+				07265A6BB6E332FAA65322D9EDF6CC8E /* mz_strm_split.c */,
+				4A5C4F2963538B7F59F42EC2454FC96B /* mz_strm_split.h */,
+				39682AF6BC324631A0DA16A7A9C573D4 /* mz_strm_wzaes.c */,
+				DBAB6615BD1D6BC27942ACE62DCADD39 /* mz_strm_wzaes.h */,
+				660A58ABE3719DB4F4EA6FF6DDB53F9D /* mz_strm_zlib.c */,
+				5D6C12B5C92DBA80698ED0D6BE4AE12C /* mz_strm_zlib.h */,
+				EC704A596E7D669A7EA9552EE1684EF3 /* mz_zip.c */,
+				76A5CF0DA40D5EC6EBA6674E61D47D5F /* mz_zip.h */,
+				91D987AAC8412EDA176E660A1CE48348 /* mz_zip_rw.c */,
+				7BBAAC91C752BCAE75538A8A0D2619F5 /* mz_zip_rw.h */,
+				6C84EC4BD2F5245F295E8B1DB1BBF9A6 /* SSZipArchive.h */,
+				3DAE6EA41BE8331EEACCF737DB3B43BF /* SSZipArchive.m */,
+				2804EBDE5A17CCD85DA098CE16E96436 /* SSZipCommon.h */,
+				F58F70F2E9F5EC998F581BB090F118C4 /* ZipArchive.h */,
+				D4AE42038C3D6B037E35D9E429A747C2 /* Resources */,
+				5B4A22756A89D9353ABEE7691BE30B76 /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
 		6F3906880344F426015F35B4FA31944D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,74 +449,67 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		722417EF568EE2F55BC740FBCBF12D25 /* Binary */ = {
+		7AA1E2624D5F8AC74435A4067BEF0F4C /* MedianIcons */ = {
 			isa = PBXGroup;
 			children = (
-				E38A9494FD2F5A38C32612224B3FAAD9 /* Frameworks */,
-				924474504E6EB615D82C997998DE2C28 /* Resources */,
+				5E762634AD3CE9AE68F6E62495CFA7FD /* Font.swift */,
+				EDFCF3F14B93BB79A2C91F3132E6B128 /* FontFactory.swift */,
+				098F40935EEF58113425763835B84D97 /* FontLoader.swift */,
+				921D864A935EF7CB6F5BE9565481A320 /* NSAttributedString+Font.swift */,
+				014BB0B6B9F4D385A3A72086B0FC0135 /* UIImage+Font.swift */,
+				1E85C9BDDE1C49D815911D1D26AD19B4 /* Utilities.swift */,
+				7B3C85222CFD9AD47818D96E7573D6A2 /* Resources */,
+				E1429F0581E13BC7F4FCF30BDE44F33A /* Support Files */,
+			);
+			name = MedianIcons;
+			path = MedianIcons;
+			sourceTree = "<group>";
+		};
+		7B3C85222CFD9AD47818D96E7573D6A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85D60B6C6319240D38D2E5EC208F5BED /* FontAwesome.json */,
+				2910FFF679F6DCE2978A7E19A9079A56 /* FontAwesome6_Brands.ttf */,
+				EF1B4AAB70FACCFA343C51588D3ED6E4 /* FontAwesome6_Light.ttf */,
+				47E7906CFC89843A8B5205296AD42132 /* FontAwesome6_Regular.ttf */,
+				26CCF634A10A72185B0441E560C3E76E /* FontAwesome6_Solid.ttf */,
+				11C92398D6D64A743B0F40D892D3D0A2 /* FontAwesome6_Thin.ttf */,
+				1D878212D5AD9D6F26C329824C1C16D0 /* MaterialDesign.json */,
+				2FC91C17345345F691FDC253A3F9CA8D /* MaterialDesign.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		801E78921DA712AFF15A803397C2FDB2 /* Binary */ = {
+			isa = PBXGroup;
+			children = (
+				3682410DDB8F19DD00F7874BBD97067A /* Frameworks */,
+				E4A3ED8AA86257677165930DFC00EEB9 /* Resources */,
 			);
 			name = Binary;
 			sourceTree = "<group>";
 		};
-		8DD7CCD22E93859F518BD829F7E49BFC /* Support Files */ = {
+		9F9868762EAF34C6E3544AE5D61C60C1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				54B51299431A08329F934AD88F716976 /* SSZipArchive.modulemap */,
-				FBDBFDF5C52262862D0AA7F7B645C3CD /* SSZipArchive-dummy.m */,
-				7FB2C6622FD82916305A6329E9975993 /* SSZipArchive-Info.plist */,
-				DA2355FBFE26240B1E0E2C79E5C9DB34 /* SSZipArchive-prefix.pch */,
-				486D8DAEA07C49883727C6FF93837E52 /* SSZipArchive-umbrella.h */,
-				0BFA62D1C836B06EA0A331FB02A0B605 /* SSZipArchive.debug.xcconfig */,
-				87655FCDA8583BE09E6167B53EDD0B53 /* SSZipArchive.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SSZipArchive";
-			sourceTree = "<group>";
-		};
-		924474504E6EB615D82C997998DE2C28 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				520B29F22B4B110F2A243BDA9797F138 /* Images.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		986A8722E4B2D5D58B2C47431C69004C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FF72165B898A6E50F22F61DE34D0006D /* GoNativeCore */,
-				2CF77DDE8C59E92FD574CEB8B0366217 /* MedianIcons */,
-				19E726D69E0EA8B8C990BDE098A9B169 /* SSZipArchive */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A769B587C08B3A10B8C80C7F4A452622 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1BDAA894B01399001E5CB0ACD63FC404 /* FontAwesome.json */,
-				6B7107C5C4520C66BD61E5AA71FA0A0B /* FontAwesome6_Brands.ttf */,
-				3124464FE4D69BED57FB5D6AAF12117D /* FontAwesome6_Light.ttf */,
-				52CADFEABD17F4C45F6D04CAC67B925F /* FontAwesome6_Regular.ttf */,
-				7C48CB66566123686B5EF1469AC57615 /* FontAwesome6_Solid.ttf */,
-				83A58C486077990021F365D1674161C0 /* FontAwesome6_Thin.ttf */,
-				78505AB11E39B8C2B589301C09D93639 /* MaterialDesign.json */,
-				3953DFBC92F05145FE99E41C997D9D78 /* MaterialDesign.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		C351672A12AAD4ADC9B49E1C0F2C557B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D831177B9126FA21916BC413ABB57856 /* GoNativeCore-xcframeworks.sh */,
-				54EEACA274D6B0FBA632B79A57317D83 /* GoNativeCore.debug.xcconfig */,
-				D8DA71749BE57F1D8FDAC9DF3BEE0756 /* GoNativeCore.release.xcconfig */,
-				C8069A7A46B8C0A55DC0AF71F31ED5B2 /* ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist */,
-				CE431C0692E05F978FD28B7DE2782D9B /* ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist */,
+				40C33B045B363AB84BE2978EEF38A3E6 /* GoNativeCore-xcframeworks.sh */,
+				8377BDF7235E8085749790E16656E2A9 /* GoNativeCore.debug.xcconfig */,
+				14F371B768A10E2E580A9DF6831E3A83 /* GoNativeCore.release.xcconfig */,
+				CAA2D63A675C8DACADA9699DA58147C3 /* ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist */,
+				8E4215D554C119CFCF02F3BA0098B4DB /* ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GoNativeCore";
+			sourceTree = "<group>";
+		};
+		A91187FD299F9B8EB4CF6830F7F29B2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F06B830E56856EC3BB97CCA99276BBA2 /* GoNativeCore */,
+				7AA1E2624D5F8AC74435A4067BEF0F4C /* MedianIcons */,
+				62EA56D01CBAB06645A1188A4625FB35 /* SSZipArchive */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -510,26 +517,49 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				986A8722E4B2D5D58B2C47431C69004C /* Pods */,
-				212554011F68E01C43DA0A9534E37FFE /* Products */,
+				A91187FD299F9B8EB4CF6830F7F29B2C /* Pods */,
+				046881C9D7E6280D407C858AB54D0D5D /* Products */,
 				174636105344CE4DC5E3AAAD9097013C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E38A9494FD2F5A38C32612224B3FAAD9 /* Frameworks */ = {
+		D4AE42038C3D6B037E35D9E429A747C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3C8FF7A37891D4A6E9DBDB6DAB839F41 /* GoNativeCore.xcframework */,
+				F986AE9FD8820C88DBB18EBACBBAAE1E /* PrivacyInfo.xcprivacy */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		FF72165B898A6E50F22F61DE34D0006D /* GoNativeCore */ = {
+		E1429F0581E13BC7F4FCF30BDE44F33A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				722417EF568EE2F55BC740FBCBF12D25 /* Binary */,
-				4D537F20A7E10B578CC690BCAEFB254A /* Resources */,
-				C351672A12AAD4ADC9B49E1C0F2C557B /* Support Files */,
+				50125A53104BEF24697E8EBCE78FBDF2 /* MedianIcons.modulemap */,
+				4A18DF5990B0FD1A9665DE081FD6E7D3 /* MedianIcons-dummy.m */,
+				8DCD251D96CC50928552AB720138ACCD /* MedianIcons-Info.plist */,
+				11C5D79E0E82354A82A1593917CA8263 /* MedianIcons-prefix.pch */,
+				14B4C058FFA5FA4FBDA251FB9CE02BF3 /* MedianIcons-umbrella.h */,
+				36C8125AE87835D0E6A57EB122BDE20F /* MedianIcons.debug.xcconfig */,
+				8FFBC6061CC2199066132A479A6EBD12 /* MedianIcons.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MedianIcons";
+			sourceTree = "<group>";
+		};
+		E4A3ED8AA86257677165930DFC00EEB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4A5444237292E6DFC95D7EC1421B3 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F06B830E56856EC3BB97CCA99276BBA2 /* GoNativeCore */ = {
+			isa = PBXGroup;
+			children = (
+				801E78921DA712AFF15A803397C2FDB2 /* Binary */,
+				37783B76D97496387301807E8D9DDC53 /* Resources */,
+				9F9868762EAF34C6E3544AE5D61C60C1 /* Support Files */,
 			);
 			name = GoNativeCore;
 			path = GoNativeCore;
@@ -546,6 +576,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		232862008FFE1267E26E9ABD3F170658 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F132E1104C291F93864A649244171DA2 /* mz.h in Headers */,
+				9DE181522C57CB2A0171194DFAD658FE /* mz_compat.h in Headers */,
+				9AE435D3623673C2DDE5D4A5A0E646C0 /* mz_crypt.h in Headers */,
+				390093E4E180AC2F55C363B0D0CB1DE8 /* mz_os.h in Headers */,
+				BDFBF97EE09CA59227853CF277B7CDBB /* mz_strm.h in Headers */,
+				F3AE37B0F0D332EFF50B6963242C4022 /* mz_strm_buf.h in Headers */,
+				B6425E13C08E63C782D15EBDD5B448DE /* mz_strm_mem.h in Headers */,
+				056C8AF4833983C0502D6A8AFEDBA2CB /* mz_strm_os.h in Headers */,
+				4CC52CDB5C87800EF35CCA48E614E56E /* mz_strm_pkcrypt.h in Headers */,
+				FF1BBE58CE8AA452072BA30280E4D1DE /* mz_strm_split.h in Headers */,
+				AD3243EAC62531D9E692F86389A373D6 /* mz_strm_wzaes.h in Headers */,
+				289DC710A036B73F1795597DD3D63483 /* mz_strm_zlib.h in Headers */,
+				27680337CA7AFDDE45950E5F32FE50D4 /* mz_zip.h in Headers */,
+				003999C1069A4012DECD0022C9B21018 /* mz_zip_rw.h in Headers */,
+				CECE83BFCC626ABB91AD969D00445F46 /* SSZipArchive.h in Headers */,
+				5A3D64C4797B39E18B0109FE2355568D /* SSZipArchive-umbrella.h in Headers */,
+				CA148F8D9BB07D441D3D5B8E22385839 /* SSZipCommon.h in Headers */,
+				09D396E61304DAEBD72C954F43B1FB92 /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		27FFF4C96FCF43A36C7F92DC3E4E3904 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -554,36 +609,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C6258228869E9436DA4BE396620E1CC /* Headers */ = {
+		EFE356170DD3AF98309F7138CF35B13F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47776B396C1E4844D7DD36ED915F6736 /* Pods-Upstart-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65CDCD725E404567B6CEDE98BCE6EB88 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7819DD27A1B62DFC933835DFAFBDBF42 /* mz.h in Headers */,
-				374FECA22750A2F7F17CA125C25DB352 /* mz_compat.h in Headers */,
-				7ED6C3C05EA6EE83780A3600C7088B46 /* mz_crypt.h in Headers */,
-				C53D326186927C0C85580CC5FEB133E3 /* mz_os.h in Headers */,
-				AE0F1284A9C414203C1D5C66EDE95E8E /* mz_strm.h in Headers */,
-				8F43694404EAFF6D73EE58928154C0F2 /* mz_strm_buf.h in Headers */,
-				817909CFA2E8032670693BF57A2D5519 /* mz_strm_mem.h in Headers */,
-				C64C28E8B15C171323473E543C608E68 /* mz_strm_os.h in Headers */,
-				E5FA0235CD286C13C0F568946EB0AEA8 /* mz_strm_pkcrypt.h in Headers */,
-				D9C15A8B92E62396D95DB88415A38A8F /* mz_strm_split.h in Headers */,
-				03588B938BECEEF89042E2C73159BEA2 /* mz_strm_wzaes.h in Headers */,
-				A190A9DFC23558006BE5D8D5B6DAE51C /* mz_strm_zlib.h in Headers */,
-				49900106BEFC9C1BEB3E96558C0C4AE8 /* mz_zip.h in Headers */,
-				4E56BA148170B3A6E7FA6D312B06C784 /* mz_zip_rw.h in Headers */,
-				4569AD436BB87FA37A01C5C982F025A2 /* SSZipArchive.h in Headers */,
-				D2E6ED217227452C59C9B29C62858F7C /* SSZipArchive-umbrella.h in Headers */,
-				FF500FD55C6C8DD8418FA2290B95811A /* SSZipCommon.h in Headers */,
-				AAF2B7BD4C56295DBA1BB6039AC0EDD4 /* ZipArchive.h in Headers */,
+				381FDF8E50A892E81625E5EF25C0903D /* Pods-Upstart-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,19 +622,19 @@
 /* Begin PBXNativeTarget section */
 		1ED8AA2684A1F7E9ADD7FD506766CC2C /* Pods-Upstart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56E2A7C6A12E7BA74772CA6489AC438B /* Build configuration list for PBXNativeTarget "Pods-Upstart" */;
+			buildConfigurationList = 112D2A6DAA265168AEB99127CDE3DBE4 /* Build configuration list for PBXNativeTarget "Pods-Upstart" */;
 			buildPhases = (
-				3C6258228869E9436DA4BE396620E1CC /* Headers */,
-				AC065547172F2BB9876C6F7F631AB469 /* Sources */,
-				DC0B87C0976561AB403C03DE4B0F72D6 /* Frameworks */,
-				19F262E1C35C84F211BD3C0AD41FC359 /* Resources */,
+				EFE356170DD3AF98309F7138CF35B13F /* Headers */,
+				E9B22D0163D74542B8EAD8834E9AE33C /* Sources */,
+				C30A9FC711C9547DBBAF42222C475489 /* Frameworks */,
+				BC988F30ADB0F4B7C7815FBF21662CFE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84819E49EE3A6BCCB5A0A966C183E83B /* PBXTargetDependency */,
-				99FE6F975228E3B21BCFB84E1ABD6F2B /* PBXTargetDependency */,
-				6D85EFBFA32AEF11DD20472CA07198B2 /* PBXTargetDependency */,
+				DF87A91BA32D459126DE9AED7D3A779B /* PBXTargetDependency */,
+				919A99BFE13743A441A89C23338F9F25 /* PBXTargetDependency */,
+				3BD34739FF7907399DF87917D279C7F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-Upstart";
 			productName = Pods_Upstart;
@@ -613,11 +643,11 @@
 		};
 		342DC4BCB960507542891730A007EEC5 /* GoNativeCore-GoNativeCore_Privacy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EF348062E803DEB2811AB756BBD71B5 /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCore_Privacy" */;
+			buildConfigurationList = 72CF8E3B07009DBDBD4C4E207B425AF8 /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCore_Privacy" */;
 			buildPhases = (
-				3466054A68BBA69FAD428B91EAD57FBE /* Sources */,
-				00ED1F6380ED698B3A6B6A6BDC85D4C1 /* Frameworks */,
-				3451FAF14A1D8FD410A2D181F10C8886 /* Resources */,
+				F658169A737D147BFE6565CBA2A7E8E3 /* Sources */,
+				4797603010CBF74A6585DF8A1A1C180C /* Frameworks */,
+				FAD49F32B4D2C5D3E73727A590178A04 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -658,7 +688,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B761F55DFF784A76F7D58EA8ECCD77C7 /* PBXTargetDependency */,
+				81E6F2731AEE93DAD222BBE63CA1F0E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-MedianIOSTests";
 			productName = Pods_MedianIOSTests;
@@ -667,11 +697,11 @@
 		};
 		BAB09BCC6C174BC6386EEBD9FBEC68E2 /* GoNativeCore-GoNativeCoreResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF2CE87E50B095871CDCC8509773451 /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCoreResources" */;
+			buildConfigurationList = 5F86F9C6BFA4853CD5891E7FB0505DEF /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCoreResources" */;
 			buildPhases = (
-				15830AA9AF21C003F80EE2E91ABBD473 /* Sources */,
-				B61133EF4D39A4A327D58EACEEE9D935 /* Frameworks */,
-				9DA8C172469081F668E84207F2CB92F3 /* Resources */,
+				32BB80AAAE3CEEE7721FD0229347B879 /* Sources */,
+				0E01C99959C337C436A8D2887B0D2BF1 /* Frameworks */,
+				4B6C0A7DF1FA2CD0D565AA28026D8DC1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -682,18 +712,36 @@
 			productReference = 47F69FD70C4B31CB7B49B85B10B637C6 /* GoNativeCore-GoNativeCoreResources */;
 			productType = "com.apple.product-type.bundle";
 		};
-		F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */ = {
+		D8EA004283833F4910C46F5335BE8F07 /* SSZipArchive-SSZipArchive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E86C95B2CC48E329293EC1606BA231C /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildConfigurationList = 17E8F74B07A0F873332AAEFADF6F72B4 /* Build configuration list for PBXNativeTarget "SSZipArchive-SSZipArchive" */;
 			buildPhases = (
-				65CDCD725E404567B6CEDE98BCE6EB88 /* Headers */,
-				049BE71707DDB25A944AB502CE7E174A /* Sources */,
-				7B7CCC4D3C186BB73A6D1F0A0DCB559D /* Frameworks */,
-				68B18CAE9D89E3559204AEEBF86D5F3B /* Resources */,
+				5402A6A74D91884B182931905BC900A5 /* Sources */,
+				F6A06A9738E869308CCC49B10F51A1B3 /* Frameworks */,
+				1C22993077156B0410572436763FA939 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "SSZipArchive-SSZipArchive";
+			productName = SSZipArchive;
+			productReference = 47818FA269C04B50A51A8D1D2122C796 /* SSZipArchive-SSZipArchive */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783916E62105171925133021AF36D0D4 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				232862008FFE1267E26E9ABD3F170658 /* Headers */,
+				2C375216417BAFD6FAF36DD4E4837320 /* Sources */,
+				0191B8CB9830996D14678B22E611CC05 /* Frameworks */,
+				039BB05FA1ED31C94D3E1B65DF1F9B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A230482C62CCB10D37FD90DAB12F55 /* PBXTargetDependency */,
 			);
 			name = SSZipArchive;
 			productName = SSZipArchive;
@@ -720,7 +768,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 212554011F68E01C43DA0A9534E37FFE /* Products */;
+			productRefGroup = 046881C9D7E6280D407C858AB54D0D5D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -731,11 +779,20 @@
 				73F338EB12754A10607D281C43AE89D3 /* Pods-MedianIOSTests */,
 				1ED8AA2684A1F7E9ADD7FD506766CC2C /* Pods-Upstart */,
 				F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */,
+				D8EA004283833F4910C46F5335BE8F07 /* SSZipArchive-SSZipArchive */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		039BB05FA1ED31C94D3E1B65DF1F9B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66070F171462D48C039DB8CB8800D53C /* SSZipArchive-SSZipArchive in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18325E06C9FFB4F356459AB66A7AF540 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -751,25 +808,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19F262E1C35C84F211BD3C0AD41FC359 /* Resources */ = {
+		1C22993077156B0410572436763FA939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A14D301C02D86E96A73647ED246999 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3451FAF14A1D8FD410A2D181F10C8886 /* Resources */ = {
+		4B6C0A7DF1FA2CD0D565AA28026D8DC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02549A98713D4F71EE8E5D4AB1B6C4F3 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68B18CAE9D89E3559204AEEBF86D5F3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1B9381399C618FFA8C35836F410F4AA6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,11 +831,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA8C172469081F668E84207F2CB92F3 /* Resources */ = {
+		BC988F30ADB0F4B7C7815FBF21662CFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAD3977EB3EE3DEB3E6E67C003AB9D0C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD49F32B4D2C5D3E73727A590178A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D424FF2DDBC8D87DF41A086030E48A3B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,38 +869,38 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		049BE71707DDB25A944AB502CE7E174A /* Sources */ = {
+		2C375216417BAFD6FAF36DD4E4837320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				352E63E404CED072E7F714C52FF93E49 /* mz_compat.c in Sources */,
-				60E384ABEF99F5104C99DCB596E2BE95 /* mz_crypt.c in Sources */,
-				E283D8FF283E09D9CF863A27B55886EF /* mz_crypt_apple.c in Sources */,
-				6577A9EB1AED47B915B7F77C3F8BF335 /* mz_os.c in Sources */,
-				3683A04365A59519AAB2F47C5FA6FA3C /* mz_os_posix.c in Sources */,
-				823033F3DF2D5C7C4B123A277DB55073 /* mz_strm.c in Sources */,
-				8415E191A2886EC3426A01BC86299E1F /* mz_strm_buf.c in Sources */,
-				27293E7084BFE6AF873BB233419CFA2D /* mz_strm_mem.c in Sources */,
-				B4DF1CDCE2413AF579E102954A4033F6 /* mz_strm_os_posix.c in Sources */,
-				4C8A5ADD06D2DFC9E7FA2A1CA9DD565A /* mz_strm_pkcrypt.c in Sources */,
-				68D4A83EA695C463981E04DAD037064F /* mz_strm_split.c in Sources */,
-				C9AFC6682FD2C8231E779A4349DBDFD6 /* mz_strm_wzaes.c in Sources */,
-				84B5FB65B38C19F534F49DE6471C0E5B /* mz_strm_zlib.c in Sources */,
-				FBF481A2EC25D99DC41914AE7B9754D2 /* mz_zip.c in Sources */,
-				090CC8DB2713055B65F3693A67A9F0AF /* mz_zip_rw.c in Sources */,
-				A71E222C76A20B18600A6DE4091CFB0E /* SSZipArchive.m in Sources */,
-				A90260F860E51EC89130250EA3E61F22 /* SSZipArchive-dummy.m in Sources */,
+				609091DF6F879D0F3E29E445F039BB0B /* mz_compat.c in Sources */,
+				F98F0C2D46B9873FA0A2AB457690744D /* mz_crypt.c in Sources */,
+				FA64FA872544EA72ADAD88EA9614175F /* mz_crypt_apple.c in Sources */,
+				B4CD90474BC538C12A1A8A81116842D4 /* mz_os.c in Sources */,
+				B5B88C7DE035EA7EAC7F8282248BD3D0 /* mz_os_posix.c in Sources */,
+				D624E216A54491799D7C3F1C36A7F6AC /* mz_strm.c in Sources */,
+				E5DB347522E224FAC86C1EC31A11DD63 /* mz_strm_buf.c in Sources */,
+				B9538FAA8706CDD0ECB64C8135D1B6BE /* mz_strm_mem.c in Sources */,
+				0F35D3C4CC99C332A46BA6CCCC38406B /* mz_strm_os_posix.c in Sources */,
+				17AEA3172EED2D45F8B4B59A56B95816 /* mz_strm_pkcrypt.c in Sources */,
+				FE9F2E73CDC2A0907B25987A94E39A43 /* mz_strm_split.c in Sources */,
+				66EE8040E71562D4504D57E20B1DFB34 /* mz_strm_wzaes.c in Sources */,
+				379346ABB3BACD0A54D595B61196F162 /* mz_strm_zlib.c in Sources */,
+				373421C01FD5B667F4700B378F4052A9 /* mz_zip.c in Sources */,
+				5D274CD538685BF6412CF6E108FFA18F /* mz_zip_rw.c in Sources */,
+				873389BDCAA63589C774F5902C642732 /* SSZipArchive.m in Sources */,
+				DD855D98C793682FEFEE7B8583560D79 /* SSZipArchive-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		15830AA9AF21C003F80EE2E91ABBD473 /* Sources */ = {
+		32BB80AAAE3CEEE7721FD0229347B879 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3466054A68BBA69FAD428B91EAD57FBE /* Sources */ = {
+		5402A6A74D91884B182931905BC900A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -854,14 +912,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E013D49B9601ABA3CD123C9B15343FD7 /* Pods-MedianIOSTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC065547172F2BB9876C6F7F631AB469 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E19231A31057936C7ABB600E00507685 /* Pods-Upstart-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -879,258 +929,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9B22D0163D74542B8EAD8834E9AE33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63C09ABB22718DE57F3478C08C4E2F4 /* Pods-Upstart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F658169A737D147BFE6565CBA2A7E8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0046573501715246C2A67872B9F519C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GoNativeCore-GoNativeCoreResources";
-			target = BAB09BCC6C174BC6386EEBD9FBEC68E2 /* GoNativeCore-GoNativeCoreResources */;
-			targetProxy = 63096D0F2CCB9B0935308F8BD26BCC86 /* PBXContainerItemProxy */;
-		};
-		6D85EFBFA32AEF11DD20472CA07198B2 /* PBXTargetDependency */ = {
+		3BD34739FF7907399DF87917D279C7F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SSZipArchive;
 			target = F60E38364AFF5E1349FF07415B944396 /* SSZipArchive */;
-			targetProxy = A12CFDC4AD05AB88ADFFBBEF8EB4D51E /* PBXContainerItemProxy */;
+			targetProxy = 88BB2C4A2469E54758A3187DF9DBADFB /* PBXContainerItemProxy */;
 		};
-		84819E49EE3A6BCCB5A0A966C183E83B /* PBXTargetDependency */ = {
+		45A230482C62CCB10D37FD90DAB12F55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GoNativeCore;
-			target = 0412DEF5B0065DDF6F89C12727DA5240 /* GoNativeCore */;
-			targetProxy = B8F26519A7773A873B1DFB67E93F5656 /* PBXContainerItemProxy */;
+			name = "SSZipArchive-SSZipArchive";
+			target = D8EA004283833F4910C46F5335BE8F07 /* SSZipArchive-SSZipArchive */;
+			targetProxy = 53D97052AB03D4BB91C3539ABC59F6B6 /* PBXContainerItemProxy */;
 		};
-		99FE6F975228E3B21BCFB84E1ABD6F2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MedianIcons;
-			target = 42D9E1CFE057ACA78611354A64E68592 /* MedianIcons */;
-			targetProxy = 5C848310AE5E66001003DC3A440F3C5D /* PBXContainerItemProxy */;
-		};
-		A6EB1653E5DEC49C6EC899E4EE731D6D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GoNativeCore-GoNativeCore_Privacy";
-			target = 342DC4BCB960507542891730A007EEC5 /* GoNativeCore-GoNativeCore_Privacy */;
-			targetProxy = 128354317C6759B7959DCCE47542CA58 /* PBXContainerItemProxy */;
-		};
-		B761F55DFF784A76F7D58EA8ECCD77C7 /* PBXTargetDependency */ = {
+		81E6F2731AEE93DAD222BBE63CA1F0E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Upstart";
 			target = 1ED8AA2684A1F7E9ADD7FD506766CC2C /* Pods-Upstart */;
-			targetProxy = EEF92066B8FFFBD4BBEA77477540093A /* PBXContainerItemProxy */;
+			targetProxy = CFE9AD1F8749134B137A26BC806D553C /* PBXContainerItemProxy */;
+		};
+		875523C4E72860667433378B51FA674C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoNativeCore-GoNativeCoreResources";
+			target = BAB09BCC6C174BC6386EEBD9FBEC68E2 /* GoNativeCore-GoNativeCoreResources */;
+			targetProxy = 45A1543C03594A2856A94398929E0FE3 /* PBXContainerItemProxy */;
+		};
+		919A99BFE13743A441A89C23338F9F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MedianIcons;
+			target = 42D9E1CFE057ACA78611354A64E68592 /* MedianIcons */;
+			targetProxy = 8A4BDFDF6D8D98816275878DFB201DF1 /* PBXContainerItemProxy */;
+		};
+		D4A6B84F53E2C237037EED6F9EFDCD5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoNativeCore-GoNativeCore_Privacy";
+			target = 342DC4BCB960507542891730A007EEC5 /* GoNativeCore-GoNativeCore_Privacy */;
+			targetProxy = 6AC7C69588F26CEDFBB8F7F41F8B8CBA /* PBXContainerItemProxy */;
+		};
+		DF87A91BA32D459126DE9AED7D3A779B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoNativeCore;
+			target = 0412DEF5B0065DDF6F89C12727DA5240 /* GoNativeCore */;
+			targetProxy = 6482673E7B7E5004D329A9372147C364 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F8412601D906EA6D2C3B1101BB2A703 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87655FCDA8583BE09E6167B53EDD0B53 /* SSZipArchive.release.xcconfig */;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
-				PRODUCT_MODULE_NAME = SSZipArchive;
-				PRODUCT_NAME = SSZipArchive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		25D25E63DBC5A37F96552CBD10A04498 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F1071995DDBA2CE7951360F268FA870 /* Pods-MedianIOSTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGNING_ALLOWED = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2A164B4DC15CEAC42A517E9AF9A35374 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54EEACA274D6B0FBA632B79A57317D83 /* GoNativeCore.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGNING_ALLOWED = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4A84DC82C843A8BA34139D1D10BADD78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8DA71749BE57F1D8FDAC9DF3BEE0756 /* GoNativeCore.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGNING_ALLOWED = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4F02BB0D67AB73A5C8DF429B52E0B018 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54EEACA274D6B0FBA632B79A57317D83 /* GoNativeCore.debug.xcconfig */;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
-				IBSC_MODULE = GoNativeCore;
-				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist";
-				PRODUCT_NAME = GoNativeCoreResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		539B2933E80B068558E94F5CCD5F8BB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C38E71356291ABF75AEFCCB0B8D3C99F /* Pods-Upstart.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGNING_ALLOWED = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-Upstart/Pods-Upstart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Upstart/Pods-Upstart.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7F03EE7839E9A1F5233EE0B70D31F22F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54EEACA274D6B0FBA632B79A57317D83 /* GoNativeCore.debug.xcconfig */;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
-				IBSC_MODULE = GoNativeCore;
-				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist";
-				PRODUCT_NAME = GoNativeCore_Privacy;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		84A6BA75C392975BBC4631386D09EA11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8DA71749BE57F1D8FDAC9DF3BEE0756 /* GoNativeCore.release.xcconfig */;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
-				IBSC_MODULE = GoNativeCore;
-				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist";
-				PRODUCT_NAME = GoNativeCoreResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1183,7 +1045,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1196,7 +1058,65 @@
 			};
 			name = Debug;
 		};
-		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+		132950DC93BD00D311F5614B018FFAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B512286FC3C5CBC7A74D1A6891378A40 /* Pods-MedianIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21608E1BD0124E3948A2C82A8DF05063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F371B768A10E2E580A9DF6831E3A83 /* GoNativeCore.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
+				IBSC_MODULE = GoNativeCore;
+				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist";
+				PRODUCT_NAME = GoNativeCoreResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1246,7 +1166,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1258,16 +1178,16 @@
 			};
 			name = Release;
 		};
-		9EE48FA7DDA2EDDB8AB207D37AA3BBAC /* Release */ = {
+		36C6C16919FAC7E427539FE716986D88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8DA71749BE57F1D8FDAC9DF3BEE0756 /* GoNativeCore.release.xcconfig */;
+			baseConfigurationReference = 1030FEA83551A2D63970ED366032EF54 /* SSZipArchive.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
-				IBSC_MODULE = GoNativeCore;
-				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist";
-				PRODUCT_NAME = GoNativeCore_Privacy;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SSZipArchive";
+				IBSC_MODULE = SSZipArchive;
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/ResourceBundle-SSZipArchive-SSZipArchive-Info.plist";
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1275,52 +1195,12 @@
 			};
 			name = Release;
 		};
-		A725DD0378573E6B16C1DD8E9BC7629B /* Release */ = {
+		3D8E6DFBA182DBF8BC590F252A05313D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A0B1F8E1E30BC17A08A172336DFCF3D /* MedianIcons.release.xcconfig */;
+			baseConfigurationReference = 044CEF51D08FE29AD7E76FE893653451 /* SSZipArchive.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGNING_ALLOWED = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MedianIcons/MedianIcons-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MedianIcons/MedianIcons-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MedianIcons/MedianIcons.modulemap";
-				PRODUCT_MODULE_NAME = MedianIcons;
-				PRODUCT_NAME = MedianIcons;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ABCE78140CC26D7C52EEFF124CFAD891 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BFA62D1C836B06EA0A331FB02A0B605 /* SSZipArchive.debug.xcconfig */;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGNING_ALLOWED = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1354,9 +1234,29 @@
 			};
 			name = Debug;
 		};
-		C79942EBD50A62EB4DC8E1678DEDBFFE /* Debug */ = {
+		456C97F3132675128166B119304575F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24B9500AD75FD25F8220EC4DEACFAF5C /* MedianIcons.debug.xcconfig */;
+			baseConfigurationReference = 14F371B768A10E2E580A9DF6831E3A83 /* GoNativeCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		624582FBE39CB9983A78C21DDE8AB7FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1030FEA83551A2D63970ED366032EF54 /* SSZipArchive.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1365,36 +1265,36 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MedianIcons/MedianIcons-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MedianIcons/MedianIcons-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/MedianIcons/MedianIcons.modulemap";
-				PRODUCT_MODULE_NAME = MedianIcons;
-				PRODUCT_NAME = MedianIcons;
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		EC3BAA8ACD7DEFDFBED420B75CDC4BC3 /* Release */ = {
+		73AA1E6A5C072213E53E19F25B56FFCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A85DEE78B6017CFF6EF8E21E03C007AB /* Pods-Upstart.release.xcconfig */;
 			buildSettings = {
@@ -1435,9 +1335,9 @@
 			};
 			name = Release;
 		};
-		FB48A72C2FC2C116772993F6E3CABC3C /* Release */ = {
+		821C0C50B3E5C7D18D4E7EE9711C561B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B512286FC3C5CBC7A74D1A6891378A40 /* Pods-MedianIOSTests.release.xcconfig */;
+			baseConfigurationReference = 7F1071995DDBA2CE7951360F268FA870 /* Pods-MedianIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -1470,11 +1370,218 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85D1B9C473DE1BAEA0CFF65BEEAF1B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377BDF7235E8085749790E16656E2A9 /* GoNativeCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94BEB977BD4F052446B5DE7BDB8A0284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044CEF51D08FE29AD7E76FE893653451 /* SSZipArchive.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SSZipArchive";
+				IBSC_MODULE = SSZipArchive;
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/ResourceBundle-SSZipArchive-SSZipArchive-Info.plist";
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A725DD0378573E6B16C1DD8E9BC7629B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFBC6061CC2199066132A479A6EBD12 /* MedianIcons.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MedianIcons/MedianIcons-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MedianIcons/MedianIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MedianIcons/MedianIcons.modulemap";
+				PRODUCT_MODULE_NAME = MedianIcons;
+				PRODUCT_NAME = MedianIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		B0AFE8890C0FF0D2C80E176AA650F436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377BDF7235E8085749790E16656E2A9 /* GoNativeCore.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
+				IBSC_MODULE = GoNativeCore;
+				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist";
+				PRODUCT_NAME = GoNativeCore_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B581441530B88E77D510F8178BCC5F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F371B768A10E2E580A9DF6831E3A83 /* GoNativeCore.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
+				IBSC_MODULE = GoNativeCore;
+				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCore_Privacy-GoNativeCore-Info.plist";
+				PRODUCT_NAME = GoNativeCore_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BB7BF8DF2D9C19C2C41F6E3BF42ABBCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38E71356291ABF75AEFCCB0B8D3C99F /* Pods-Upstart.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Upstart/Pods-Upstart-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Upstart/Pods-Upstart.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C79942EBD50A62EB4DC8E1678DEDBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C8125AE87835D0E6A57EB122BDE20F /* MedianIcons.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MedianIcons/MedianIcons-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MedianIcons/MedianIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MedianIcons/MedianIcons.modulemap";
+				PRODUCT_MODULE_NAME = MedianIcons;
+				PRODUCT_NAME = MedianIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F254308579111946C03A9585A0B2B465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8377BDF7235E8085749790E16656E2A9 /* GoNativeCore.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoNativeCore";
+				IBSC_MODULE = GoNativeCore;
+				INFOPLIST_FILE = "Target Support Files/GoNativeCore/ResourceBundle-GoNativeCoreResources-GoNativeCore-Info.plist";
+				PRODUCT_NAME = GoNativeCoreResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1482,8 +1589,26 @@
 		04039FE69FDF1AF8A80024368BF4B69E /* Build configuration list for PBXNativeTarget "Pods-MedianIOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25D25E63DBC5A37F96552CBD10A04498 /* Debug */,
-				FB48A72C2FC2C116772993F6E3CABC3C /* Release */,
+				821C0C50B3E5C7D18D4E7EE9711C561B /* Debug */,
+				132950DC93BD00D311F5614B018FFAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112D2A6DAA265168AEB99127CDE3DBE4 /* Build configuration list for PBXNativeTarget "Pods-Upstart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7BF8DF2D9C19C2C41F6E3BF42ABBCE /* Debug */,
+				73AA1E6A5C072213E53E19F25B56FFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E8F74B07A0F873332AAEFADF6F72B4 /* Build configuration list for PBXNativeTarget "SSZipArchive-SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94BEB977BD4F052446B5DE7BDB8A0284 /* Debug */,
+				36C6C16919FAC7E427539FE716986D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1497,47 +1622,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FF2CE87E50B095871CDCC8509773451 /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCoreResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F02BB0D67AB73A5C8DF429B52E0B018 /* Debug */,
-				84A6BA75C392975BBC4631386D09EA11 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
-				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E86C95B2CC48E329293EC1606BA231C /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+		5F86F9C6BFA4853CD5891E7FB0505DEF /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCoreResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABCE78140CC26D7C52EEFF124CFAD891 /* Debug */,
-				0F8412601D906EA6D2C3B1101BB2A703 /* Release */,
+				F254308579111946C03A9585A0B2B465 /* Debug */,
+				21608E1BD0124E3948A2C82A8DF05063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56E2A7C6A12E7BA74772CA6489AC438B /* Build configuration list for PBXNativeTarget "Pods-Upstart" */ = {
+		72CF8E3B07009DBDBD4C4E207B425AF8 /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCore_Privacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				539B2933E80B068558E94F5CCD5F8BB5 /* Debug */,
-				EC3BAA8ACD7DEFDFBED420B75CDC4BC3 /* Release */,
+				B0AFE8890C0FF0D2C80E176AA650F436 /* Debug */,
+				B581441530B88E77D510F8178BCC5F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EF348062E803DEB2811AB756BBD71B5 /* Build configuration list for PBXNativeTarget "GoNativeCore-GoNativeCore_Privacy" */ = {
+		783916E62105171925133021AF36D0D4 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F03EE7839E9A1F5233EE0B70D31F22F /* Debug */,
-				9EE48FA7DDA2EDDB8AB207D37AA3BBAC /* Release */,
+				3D8E6DFBA182DBF8BC590F252A05313D /* Debug */,
+				624582FBE39CB9983A78C21DDE8AB7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1545,8 +1661,8 @@
 		B666B4136198B755ED2CE5C7AFA5A25C /* Build configuration list for PBXAggregateTarget "GoNativeCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A164B4DC15CEAC42A517E9AF9A35374 /* Debug */,
-				4A84DC82C843A8BA34139D1D10BADD78 /* Release */,
+				85D1B9C473DE1BAEA0CFF65BEEAF1B52 /* Debug */,
+				456C97F3132675128166B119304575F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

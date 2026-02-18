@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)downloadImage:(NSURL*)url completion:(void (^)(NSDictionary *result))completion;
 - (void)downloadBlobUrl:(NSURL *)url filename:(NSString *)filename callback:(NSString *)callback;
 - (void)handleUrl:(NSURL *)url query:(NSDictionary*)query;
+- (void)handleUrl:(NSURL *)url query:(NSDictionary *)query webView:(WKWebView *)webView completion:(void (^)(NSDictionary *data))completion;
 - (void)openPDF:(NSURL * _Nullable)url wvc:(UIViewController *)wvc;
 - (void)openUrl:(NSURL *)url mode:(NSString *)mode;
 - (void)shareUrl:(NSURL*)url fromView:(UIView*)view filename:(NSString*)filename open:(BOOL)open completion:(void (^)( NSString *error))completion;
@@ -24,8 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WebViewController : UIViewController
 - (NSDictionary *)getConnectivity;
-- (void)handleJSBridgeFunctions:(id)data;
 - (UIViewController *)getTopPresentedViewController;
+- (void)handleJSBridgeFunctions:(id)data;
 - (void)refreshPage;
 - (void)requestLocation;
 - (void)runCustomCode:(NSDictionary *)query;
@@ -53,6 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property WebViewControllerProp *tabManager;
 @property WebViewControllerProp *toolbarManager;
 @property WebViewControllerProp *pdfManager;
+@property WebViewControllerProp *viewportManager;
 @property WebViewControllerProp *windowsManager;
 
 @property (nullable) NSString *connectivityCallback;
